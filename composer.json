@@ -1,0 +1,24 @@
+{
+    "name": "superphp/superspider",
+    "description": "yet another spider built in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yumindev",
+            "email": "yumindev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuperPHP\\SuperSpider\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
